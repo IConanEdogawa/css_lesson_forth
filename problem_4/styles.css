@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-border {
+    border: 1px solid black;
+    padding: 10px;
+    width: 540px;
+    height: 540px;
+    overflow: auto;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+
+.blue-box {
+    border: 2px solid #3498db;
+    background-color: #2980b9;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
