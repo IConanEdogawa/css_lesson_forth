@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .blue-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: auto;
+  }
+  
+  .blue-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  body{
+    background-color: #31363F;
+  }
