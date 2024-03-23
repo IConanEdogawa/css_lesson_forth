@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('plant-2004483.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #F7EEDD;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-header button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-header button:hover {
+  background-color: #2471a3;
+}
+
+.profile-info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2980b9;
+}
+
+.profile-description {
+  flex: 1;
+  padding: 15px; 
+  background-color: #f9c922;
+  border-radius: 8px; 
+}
+
+.urls {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e74c3c; 
+  border-radius: 8px;
+}
+
+.urls h2 {
+  margin-bottom: 10px;
+}
+
+.urls ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.urls li {
+  margin-bottom: 5px;
+}
+
+.urls a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.urls a:hover {
+  color: #f0f0f0;
+}
+
+
+/* Styling for the file upload button */
+.file-upload-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.file-upload-btn:hover {
+  background-color: #2471a3;
+}
+
+/* Hide the default file input */
+.file-input {
+  display: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Profile Page</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="profile">
+    <div class="profile-header">
+      <h1>My Profile</h1>
+      <input type="text" placeholder="Enter URL">
+      <button>Add URL</button>
+    </div>
+    <div class="profile-info">
+      <div class="profile-picture">
+        <img src="R.png" alt="Profile Picture" id="profile-img">
+        <label for="img-upload" class="file-upload-btn">Choose File</label>
+        <input type="file" accept="image/*" id="img-upload" class="file-input">
+        <p id="file-name">No file chosen</p>
+      </div>
+      <div class="profile-description">
+        <h2>Description</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="urls">
+      <h2>My URLs</h2>
+      <ul id="url-list">
+        <li><a href="#">https://example.com/url1</a></li>
+        <li><a href="#">https://example.com/url2</a></li>
+        <!-- More URLs can be added dynamically -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
